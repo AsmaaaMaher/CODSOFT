@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:#4e607c;
+}
+/* body {
+    background-color: rgb(15, 15, 103); 
+    width: 100%;
+    font-family: Meiryo;
+} */
