@@ -34,18 +34,20 @@
     outline: 0;
     width: 60px;
     height: 60px;
-    -o-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
     background: transparent;
     font-size: 20px;
     color: #121111;
-    font-weight:600;
+    font-weight: 600;
     cursor: pointer;
     margin: 10px;
+}
+
+.calculater form input:hover {
+    background-color: #f0f0f0;
+    box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.4);
+    color: #050505;
 }
 
 form .display {
@@ -65,5 +67,6 @@ form .display input {
 form input.equal{
 width: 145px;
 }
+
 
 
