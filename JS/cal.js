@@ -1,10 +1,8 @@
-// Get the display element
+
 var display = document.getElementById('display');
 
-// Get all the buttons
 var buttons = document.querySelectorAll('.buttons input');
 
-// Add click event listener to each button
 buttons.forEach(function(button) {
   button.addEventListener('click', function() {
     var value = this.value;
