@@ -1,6 +1,6 @@
 
 * {
-    padding: 0;
+    padding: 13px;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
@@ -9,14 +9,14 @@
 }
 
 body{
-    /* background-image: url("/Images/backg.jpg"); */
-    color: rgb(252, 252, 252);
+ background: rgb(240, 244, 187);
+    color: rgb(0, 0, 0);
 }
 .img1 {
-    width: 130px;
+    width: 180px;
     height: auto;
     overflow: hidden;
-    margin-top: -25px;
+    margin-top: -100px;
 }
 
 nav{
@@ -28,7 +28,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 15%;
+    padding: 30px 15%;
     background: transparent;
     -o-transition: all 0.50s ease;
     -webkit-transition: all 0.50s ease;
@@ -42,8 +42,8 @@ nav{
 
 }
 .navlist a{
-    margin: 0px 5px;
-    padding: 2px 5px;
+    margin: 8px 11px;
+    padding: 5px 5px;
     color: #d247c1;
     font-size: 17px;
     font-weight: 500;
@@ -68,5 +68,52 @@ nav{
 }
 #menu-icon{
     color:#fff;
-    font-size: 3;
+    font-size: 3px;
 }
+
+.body1 {
+    background-color: #fefefe;
+    padding: 20px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+}
+
+
+
+.social-icons{
+    width: 250px;
+    text-align: center;
+    opacity: .9;
+    position:relative;
+   margin-left: 160px;
+}
+.social-icons img1{
+    height: 24px;
+    margin: 0 14px;
+}
+.social-icons::after{
+    content: '';
+    width: 150px;
+    height: 1px;
+    background: #3a2f18;
+    position: absolute;
+    left: -160px;
+    top: 10px;
+}
+
+.banner{
+    margin: 100px;
+    display: flex;
+    margin-top:100px ;
+}
+.left-col,.right-col{
+flex-basis: 50%;
+}
+.right-col img1{
+    width: 50%;
+}
+
+
