@@ -316,6 +316,37 @@ font-family: "Bell MT";
 .pre-btn:hover img, .nxt-btn:hover img {
     opacity: 1;
 } 
+
+.pre-btn1, .nxt-btn1 {
+    border: none;
+    width: 7vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%,#fff 100%);
+    cursor: pointer;
+    z-index: 8;
+}
+
+.pre-btn1 {
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.nxt-btn1 {
+    right: 0;
+}
+
+.pre-btn1 img, .nxt-btn1 img {
+    opacity: 0.2;
+}
+
+.pre-btn1:hover img, .nxt-btn1:hover img {
+    opacity: 1;
+} 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
