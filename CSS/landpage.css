@@ -13,14 +13,14 @@ body{
     color: rgb(0, 0, 0);
 }
 .img1 {
-    width: 180px;
+    width: 170px;
     height: auto;
     overflow: hidden;
-    margin-top: -40px;
+    margin-top: -30px;
 }
 
 nav{
-    position: fixed;
+    position: relative;
     width: 100%;
     top: -60px;
     z-index: 1000;
@@ -53,6 +53,7 @@ nav{
 .btn{
     display: inline-block;
     padding:12px 30px;
+    margin-bottom: 5px;
     color: #d247c1;
     background: #e0bfd3;
     border-radius:40px ;
@@ -70,7 +71,7 @@ nav{
     font-size: 3px;
 }
 
-.body1 {
+/* .body1 {
     background-color: #fefefe;
     padding: 20px;
     -o-border-radius: 10px;
@@ -80,39 +81,74 @@ nav{
     border-radius: 30px;
 }
 
-
+ */
 
 .social-icons{
     width: 250px;
     text-align: center;
     opacity: .9;
     position:relative;
-   margin-left: 160px;
+   margin-left: 110px;
 }
 .social-icons img{
-    height: 24px;
-    margin: 0 14px;
+    height: 25px;
+    margin: -10px 10px;
 }
 .social-icons::after{
     content: '';
-    width: 150px;
+    width: 120px;
     height: 1px;
     background: #3a2f18;
     position: absolute;
-    left: -160px;
-    top: 10px;
+    left: -90px;
+    top: 20px;
 }
 
 .banner{
-    margin: 100px;
+    margin: 140px;
     display: flex;
-    margin-top:100px ;
+    margin-top:-80px ;
 }
-.left-col,.right-col{
-flex-basis: 50%;
+.left-col{
+flex-basis: 65%;
 }
-.right-col img1{
-    width: 50%;
+.right-col{
+    flex-basis: 40%;
+    }
+.right-col img{
+    width: 400px;
+        height: auto;
 }
 
+.left-col h1{
+    font-size: 90px;
+    color: #c0355c;
+    font-family: "French Script MT";
+}
+.left-col h3{
+   font-size:25px ;
+}
+span{
+color: #e49393;
+font-family: "Bell MT";
+}
+
+.left-col p{
+    font-size: 18x;
+    font-weight: 600;
+    color:#0d1516;
+    margin: 30px 0;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
 
