@@ -16,7 +16,7 @@ body{
     width: 170px;
     height: auto;
     overflow: hidden;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
 nav{
@@ -105,7 +105,7 @@ nav{
 }
 
 .banner{
-    margin: 140px;
+    margin: 170px;
     display: flex;
     margin-top:-80px ;
 }
@@ -346,3 +346,69 @@ font-family: "Bell MT";
   .card button:hover {
     opacity: 0.7;
   }
+
+  *
+{
+    font-family: 'poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+footer {
+    position: relative;
+    width: 100%;
+    padding: 40px 10vw;
+    padding-bottom: 80px;
+    background: #ffffff;
+}
+
+.footer-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-content .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+}
+
+.footer-title, .info {
+    color: #c0355c;
+    /* padding-top:-30px ; */
+    margin: 15px 0;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.footer-title {
+    margin-top: 0px;
+    color: #c0355c;
+}
+
+.social-link {
+    color: #c0355c;
+    margin-left: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+
+.social-link:nth-child(1) {
+    margin-left: 0;
+}
+
+.footer-credit {
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #c0355c;
+    background: rgba(181, 101, 101, 0.2);
+    font-weight: 500;
+}
+
