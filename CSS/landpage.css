@@ -1,6 +1,6 @@
 
 * {
-    padding: 13px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
@@ -16,19 +16,19 @@ body{
     width: 180px;
     height: auto;
     overflow: hidden;
-    margin-top: -100px;
+    margin-top: -40px;
 }
 
 nav{
     position: fixed;
     width: 100%;
-    top: 0;
+    top: -60px;
     right: 0;
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 15%;
+    padding: 0px 7%;
     background: transparent;
     -o-transition: all 0.50s ease;
     -webkit-transition: all 0.50s ease;
@@ -42,8 +42,8 @@ nav{
 
 }
 .navlist a{
-    margin: 8px 11px;
-    padding: 5px 5px;
+    margin: 2px 8px;
+    padding: 2px 5px;
     color: #d247c1;
     font-size: 17px;
     font-weight: 500;
@@ -90,7 +90,7 @@ nav{
     position:relative;
    margin-left: 160px;
 }
-.social-icons img1{
+.social-icons img{
     height: 24px;
     margin: 0 14px;
 }
