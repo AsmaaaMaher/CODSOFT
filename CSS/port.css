@@ -142,28 +142,52 @@ section h1 {
     align-items: center;
 }
 
-.sec h1{
+.sec h1 {
     color: #0f158d;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     padding-left: -100px;
     margin: 0;
 }
-.banner{
+
+.banner {
     justify-content: space-between;
     margin: 10px;
     display: flex;
-    margin-top:-80px ;
+    margin-top: -70px;
 }
-.left-col{
-flex-basis: 70%;
+
+.left-col {
+    padding-left: 0px;
+    flex-basis: 50%;
 }
-.right-col{
-    flex-basis: 30%;
-    }
+
+.right-col {
+    flex-basis: 50%;
+}
+
 .right-col img{
-
-   padding-left: 300px;
-        height: auto;
+    padding-left: 350px;
 }
 
+/* two images */
+/* .parent {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 90px;
+    height: auto;
+}
+
+.image1 {
+    position: relative;
+    width: 290px;
+    padding-left: 10px;
+}
+
+.image2 {
+    position: absolute;
+    width: 300px;
+    top: 35px;
+    left: 30px;
+    border: 1px solid #000000;
+} */
