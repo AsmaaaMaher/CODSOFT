@@ -14,7 +14,8 @@
     "axe/name-role-value": [
       "default",
       {
-        "button-name": "off"
+        "button-name": "off",
+        "link-name": "off"
       }
     ],
     "button-type": "off",
@@ -22,6 +23,15 @@
       "default",
       {
         "image-alt": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "width: fit-content",
+          "height: fit-content"
+        ]
       }
     ]
   }
