@@ -289,7 +289,7 @@ section h1 {
     font-size: 20px;
 }
 
-.social{
+.social {
     padding-top: 60px;
     padding-bottom: 100px;
     font-size: 30px;
@@ -307,7 +307,7 @@ section h1 {
     align-items: center;
 }
 
-.font2{
+.font2 {
     color: #fbc1c1;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: -0.5px;
@@ -316,33 +316,31 @@ section h1 {
     padding-bottom: 0px;
     margin: 1px;
 }
-  
-  .contact-info {
+
+.contact-info {
     margin-top: 20px;
-  }
-  
-  .contact-info h3 {
+}
+
+.contact-info h3 {
     color: #fbc1c1;
     font-size: 18px;
     margin-bottom: 5px;
-  }
-  
-  .contact-info p {
+}
+
+.contact-info p {
     color: #fbc1c1;
     font-size: 15px;
     margin-bottom: 10px;
-  }
-  
-  .contact-info p a{
+}
+
+.contact-info p a {
     color: #fbc1c1;
     font-size: 15px;
     margin-bottom: 10px;
-  }
-  
-.social-icons img{
+}
+
+.social-icons img {
     height: 45px;
     padding-left: 0px;
     margin: 10px 10px;
 }
-
-
